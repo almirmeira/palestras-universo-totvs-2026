@@ -2,6 +2,39 @@
 
 Proposta de temas para dois momentos de palestra no **Universo TOTVS 2026**, elaborada por **Almir Meira Alves (CECyber)**.
 
+![Evento](https://img.shields.io/badge/Universo_TOTVS-2026-1E40AF)
+![Palestras](https://img.shields.io/badge/temas-5-22D3EE)
+![Palcos](https://img.shields.io/badge/palcos-2-A78BFA)
+![Formato](https://img.shields.io/badge/formato-45--60_min-34D399)
+![Foco](https://img.shields.io/badge/foco-IA_agêntica_2026-FB7185)
+![Status](https://img.shields.io/badge/status-one--pagers_prontos-FCD34D)
+
+**Tecnologias & frameworks:**
+
+![STRIDE](https://img.shields.io/badge/STRIDE-threat_modeling-0C4A6E)
+![NIST AI RMF](https://img.shields.io/badge/NIST-AI_RMF-0C4A6E)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-0C4A6E)
+![Zero Trust](https://img.shields.io/badge/Zero-Trust-0C4A6E)
+![SOC Agêntico](https://img.shields.io/badge/SOC-Agêntico-064E3B)
+![SOAR](https://img.shields.io/badge/SOAR-IA-064E3B)
+![MCP](https://img.shields.io/badge/Agentes-MCP-064E3B)
+![Prompt Injection](https://img.shields.io/badge/Prompt-Injection-4C0519)
+![EASM](https://img.shields.io/badge/EASM-Exposição-4C0519)
+![CECyber Range](https://img.shields.io/badge/CECyber-Range-2E1065)
+![TTX](https://img.shields.io/badge/Plataforma-TTX_v2-2E1065)
+![Gamma](https://img.shields.io/badge/Slides-Gamma-451A03)
+
+## Fio condutor 2026 — IA agêntica
+
+![Fio condutor 2026](assets/diagramas/01-fio-condutor-2026.svg)
+
+Em 2026 a **IA agêntica** virou, ao mesmo tempo, a maior arma de defesa e a maior superfície de ataque:
+
+- 48% dos profissionais apontam IA agêntica como o **principal vetor de ataque**.
+- 73% das empresas já **usam ou desenvolvem** IA agêntica na função de segurança.
+- Custo médio de breach ligado a agente ≈ **US$ 4,7 milhões**.
+- Só **14%** permitem remediação autônoma sem humano no loop; **88%** já tiveram incidente ligado a agente.
+
 ## Contexto
 
 - **Momento 1 — Auditório presencial:** ~200 pessoas, plateia **mista** (engenharia/arquitetura de software, TI e gestão). Pede teatro técnico e mão na massa.
@@ -11,16 +44,9 @@ Proposta de temas para dois momentos de palestra no **Universo TOTVS 2026**, ela
 
 O organizador solicitou **4 temas**; entregamos **5** para dar margem de escolha. É possível (e recomendado) **reaproveitar** ativos do portfólio CECyber.
 
-## Fio condutor 2026
-
-Em 2026 a **IA agêntica** virou, ao mesmo tempo, a maior arma de defesa e a maior superfície de ataque:
-
-- 48% dos profissionais apontam IA agêntica como o **principal vetor de ataque**.
-- 73% das empresas já **usam ou desenvolvem** IA agêntica na função de segurança.
-- Custo médio de breach ligado a agente ≈ **US$ 4,7 milhões**.
-- Só **14%** permitem remediação autônoma sem humano no loop; **88%** já tiveram incidente ligado a agente.
-
 ## Os 5 temas
+
+![Mapa dos 5 temas por palco](assets/diagramas/02-mapa-temas.svg)
 
 | # | Título | Palco recomendado | Parte prática |
 |---|--------|-------------------|---------------|
@@ -39,6 +65,36 @@ Em 2026 a **IA agêntica** virou, ao mesmo tempo, a maior arma de defesa e a mai
 - [03 — Anatomia de um ataque a um ERP SaaS](one-pagers/03-anatomia-ataque-erp.md)
 - [04 — Tabletop ao vivo](one-pagers/04-tabletop-ao-vivo.md)
 - [05 — O Brasil que faz tecnologia confiável (Prêmio Brasil Que Faz)](one-pagers/05-brasil-que-faz.md)
+
+## Tecnologias, frameworks & ativos mobilizados
+
+![Tecnologias e ativos](assets/diagramas/03-tech-badges.svg)
+
+| Categoria | Itens |
+|-----------|-------|
+| **Frameworks & Metodologias** | STRIDE · NIST AI RMF · MITRE ATT&CK · Zero Trust · NIST CSF 2.0 · TOGAF/SABSA |
+| **Ameaças & Ofensiva** | Prompt Injection · Memory Poisoning · Tenant Bypass · Kill Chain · Deepfake · EASM |
+| **IA & Defesa** | SOC Agêntico · SOAR · Agentes de IA/MCP · EDR/XDR · Threat Hunting · Governança de IA |
+| **Plataformas & Ativos CECyber** | CECyber Range · Plataforma TTX v2 · Cyber Decision · Cryp2pentest · aula-totvs (STRIDE) · Gamma |
+| **Formato de entrega** | Demo ao vivo · Ataque encenado · Tabletop interativo · Slides + SVG · QR/one-pager |
+
+## Estrutura do repositório
+
+```
+palestras-universo-totvs-2026/
+├── README.md                          # visão geral, fio condutor, badges e índice
+├── assets/
+│   └── diagramas/                     # SVGs (paleta canônica CECyber, fonte Inter)
+│       ├── 01-fio-condutor-2026.svg   # IA agêntica: defesa × superfície de ataque
+│       ├── 02-mapa-temas.svg          # 5 temas mapeados nos 2 palcos
+│       └── 03-tech-badges.svg         # tecnologias, frameworks e ativos
+└── one-pagers/                        # 1 documento detalhado por tema (agenda 45–60 min)
+    ├── 01-soc-autonomo.md
+    ├── 02-ia-hackeada.md
+    ├── 03-anatomia-ataque-erp.md
+    ├── 04-tabletop-ao-vivo.md
+    └── 05-brasil-que-faz.md
+```
 
 ## Histórico com o Universo TOTVS
 

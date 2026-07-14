@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111A2E"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="620" fill="url(#bg)"/>
+  <text x="600" y="48" text-anchor="middle" fill="#E2E8F0" font-size="26" font-weight="700">Tecnologias, frameworks &amp; ativos mobilizados</text>
+  <text x="600" y="76" text-anchor="middle" fill="#94A3B8" font-size="14">O que sustenta a parte prática de cada tema.</text>
+
+  <!-- Linha divisória de grupo: Frameworks -->
+  <text x="60" y="126" fill="#38BDF8" font-size="15" font-weight="700">▎Frameworks &amp; Metodologias</text>
+  <g filter="url(#sh)" font-size="14" font-weight="600">
+    <g><rect x="60" y="140" width="150" height="40" rx="20" fill="#0C4A6E"/><text x="135" y="166" text-anchor="middle" fill="#7DD3FC">STRIDE</text></g>
+    <g><rect x="222" y="140" width="170" height="40" rx="20" fill="#0C4A6E"/><text x="307" y="166" text-anchor="middle" fill="#7DD3FC">NIST AI RMF</text></g>
+    <g><rect x="404" y="140" width="180" height="40" rx="20" fill="#0C4A6E"/><text x="494" y="166" text-anchor="middle" fill="#7DD3FC">MITRE ATT&amp;CK</text></g>
+    <g><rect x="596" y="140" width="150" height="40" rx="20" fill="#0C4A6E"/><text x="671" y="166" text-anchor="middle" fill="#7DD3FC">Zero Trust</text></g>
+    <g><rect x="758" y="140" width="180" height="40" rx="20" fill="#0C4A6E"/><text x="848" y="166" text-anchor="middle" fill="#7DD3FC">NIST CSF 2.0</text></g>
+    <g><rect x="950" y="140" width="190" height="40" rx="20" fill="#0C4A6E"/><text x="1045" y="166" text-anchor="middle" fill="#7DD3FC">TOGAF · SABSA</text></g>
+  </g>
+
+  <!-- Ameaças & Ofensiva -->
+  <text x="60" y="230" fill="#FB7185" font-size="15" font-weight="700">▎Ameaças &amp; Ofensiva</text>
+  <g filter="url(#sh)" font-size="14" font-weight="600">
+    <g><rect x="60" y="244" width="190" height="40" rx="20" fill="#4C0519"/><text x="155" y="270" text-anchor="middle" fill="#FCA5A5">Prompt Injection</text></g>
+    <g><rect x="262" y="244" width="180" height="40" rx="20" fill="#4C0519"/><text x="352" y="270" text-anchor="middle" fill="#FCA5A5">Memory Poisoning</text></g>
+    <g><rect x="454" y="244" width="170" height="40" rx="20" fill="#4C0519"/><text x="539" y="270" text-anchor="middle" fill="#FCA5A5">Tenant Bypass</text></g>
+    <g><rect x="636" y="244" width="160" height="40" rx="20" fill="#4C0519"/><text x="716" y="270" text-anchor="middle" fill="#FCA5A5">Kill Chain</text></g>
+    <g><rect x="808" y="244" width="150" height="40" rx="20" fill="#4C0519"/><text x="883" y="270" text-anchor="middle" fill="#FCA5A5">Deepfake</text></g>
+    <g><rect x="970" y="244" width="170" height="40" rx="20" fill="#4C0519"/><text x="1055" y="270" text-anchor="middle" fill="#FCA5A5">EASM / Exposição</text></g>
+  </g>
+
+  <!-- IA & Defesa -->
+  <text x="60" y="334" fill="#34D399" font-size="15" font-weight="700">▎IA &amp; Defesa</text>
+  <g filter="url(#sh)" font-size="14" font-weight="600">
+    <g><rect x="60" y="348" width="170" height="40" rx="20" fill="#064E3B"/><text x="145" y="374" text-anchor="middle" fill="#6EE7B7">SOC Agêntico</text></g>
+    <g><rect x="242" y="348" width="140" height="40" rx="20" fill="#064E3B"/><text x="312" y="374" text-anchor="middle" fill="#6EE7B7">SOAR</text></g>
+    <g><rect x="394" y="348" width="190" height="40" rx="20" fill="#064E3B"/><text x="489" y="374" text-anchor="middle" fill="#6EE7B7">Agentes de IA / MCP</text></g>
+    <g><rect x="596" y="348" width="150" height="40" rx="20" fill="#064E3B"/><text x="671" y="374" text-anchor="middle" fill="#6EE7B7">EDR / XDR</text></g>
+    <g><rect x="758" y="348" width="170" height="40" rx="20" fill="#064E3B"/><text x="843" y="374" text-anchor="middle" fill="#6EE7B7">Threat Hunting</text></g>
+    <g><rect x="940" y="348" width="200" height="40" rx="20" fill="#064E3B"/><text x="1040" y="374" text-anchor="middle" fill="#6EE7B7">Governança de IA</text></g>
+  </g>
+
+  <!-- Plataformas & Ativos CECyber -->
+  <text x="60" y="438" fill="#A78BFA" font-size="15" font-weight="700">▎Plataformas &amp; Ativos CECyber (reaproveitamento)</text>
+  <g filter="url(#sh)" font-size="14" font-weight="600">
+    <g><rect x="60" y="452" width="180" height="40" rx="20" fill="#2E1065"/><text x="150" y="478" text-anchor="middle" fill="#C4B5FD">CECyber Range</text></g>
+    <g><rect x="252" y="452" width="200" height="40" rx="20" fill="#2E1065"/><text x="352" y="478" text-anchor="middle" fill="#C4B5FD">Plataforma TTX v2</text></g>
+    <g><rect x="464" y="452" width="180" height="40" rx="20" fill="#2E1065"/><text x="554" y="478" text-anchor="middle" fill="#C4B5FD">Cyber Decision</text></g>
+    <g><rect x="656" y="452" width="150" height="40" rx="20" fill="#2E1065"/><text x="731" y="478" text-anchor="middle" fill="#C4B5FD">Cryp2pentest</text></g>
+    <g><rect x="818" y="452" width="180" height="40" rx="20" fill="#2E1065"/><text x="908" y="478" text-anchor="middle" fill="#C4B5FD">aula-totvs (STRIDE)</text></g>
+    <g><rect x="1010" y="452" width="130" height="40" rx="20" fill="#2E1065"/><text x="1075" y="478" text-anchor="middle" fill="#C4B5FD">Gamma</text></g>
+  </g>
+
+  <!-- Formato -->
+  <text x="60" y="542" fill="#FCD34D" font-size="15" font-weight="700">▎Formato de entrega</text>
+  <g filter="url(#sh)" font-size="14" font-weight="600">
+    <g><rect x="60" y="556" width="150" height="40" rx="20" fill="#451A03"/><text x="135" y="582" text-anchor="middle" fill="#FCD34D">Demo ao vivo</text></g>
+    <g><rect x="222" y="556" width="200" height="40" rx="20" fill="#451A03"/><text x="322" y="582" text-anchor="middle" fill="#FCD34D">Ataque encenado</text></g>
+    <g><rect x="434" y="556" width="220" height="40" rx="20" fill="#451A03"/><text x="544" y="582" text-anchor="middle" fill="#FCD34D">Tabletop interativo</text></g>
+    <g><rect x="666" y="556" width="200" height="40" rx="20" fill="#451A03"/><text x="766" y="582" text-anchor="middle" fill="#FCD34D">Slides + SVG (Inter)</text></g>
+    <g><rect x="878" y="556" width="180" height="40" rx="20" fill="#451A03"/><text x="968" y="582" text-anchor="middle" fill="#FCD34D">QR / one-pager</text></g>
+  </g>
+</svg>

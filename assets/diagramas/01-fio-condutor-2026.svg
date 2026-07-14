@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111A2E"/>
+    </linearGradient>
+    <linearGradient id="def" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#064E3B"/><stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="atk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4C0519"/><stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="640" fill="url(#bg)"/>
+  <text x="600" y="50" text-anchor="middle" fill="#E2E8F0" font-size="26" font-weight="700">Fio condutor 2026 — IA agêntica</text>
+  <text x="600" y="78" text-anchor="middle" fill="#94A3B8" font-size="14">A mesma tecnologia é, ao mesmo tempo, a maior arma de defesa e a maior superfície de ataque.</text>
+
+  <!-- Painel Defesa -->
+  <g filter="url(#sh)">
+    <rect x="60" y="110" width="500" height="380" rx="16" fill="url(#def)" opacity="0.95"/>
+    <text x="310" y="152" text-anchor="middle" fill="#ECFDF5" font-size="21" font-weight="700">🛡 IA como Defesa</text>
+    <text x="310" y="176" text-anchor="middle" fill="#A7F3D0" font-size="13">O SOC agêntico — do alerta à contenção</text>
+    <g fill="#ECFDF5" font-size="14">
+      <text x="92" y="222">▸ Agentes: caça · detecção · investigação · resposta</text>
+      <text x="92" y="256">▸ Orquestração: IBM ATOM · CrowdStrike Charlotte · Google</text>
+      <text x="92" y="290">▸ 73% já usam/desenvolvem IA agêntica em segurança</text>
+    </g>
+    <g>
+      <rect x="92" y="320" width="200" height="66" rx="10" fill="#0B1220" opacity="0.35"/>
+      <text x="192" y="358" text-anchor="middle" fill="#6EE7B7" font-size="30" font-weight="700">50%</text>
+      <text x="192" y="378" text-anchor="middle" fill="#A7F3D0" font-size="12">detecção mais rápida</text>
+    </g>
+    <g>
+      <rect x="308" y="320" width="200" height="66" rx="10" fill="#0B1220" opacity="0.35"/>
+      <text x="408" y="358" text-anchor="middle" fill="#6EE7B7" font-size="30" font-weight="700">85%</text>
+      <text x="408" y="378" text-anchor="middle" fill="#A7F3D0" font-size="12">trabalho do analista automatizado</text>
+    </g>
+    <text x="92" y="428" fill="#D1FAE5" font-size="13">Mas só 14% permitem remediação autônoma sem</text>
+    <text x="92" y="448" fill="#D1FAE5" font-size="13">humano no loop — confiança ainda é decisão de risco.</text>
+  </g>
+
+  <!-- Painel Ataque -->
+  <g filter="url(#sh)">
+    <rect x="640" y="110" width="500" height="380" rx="16" fill="url(#atk)" opacity="0.95"/>
+    <text x="890" y="152" text-anchor="middle" fill="#FFF1F2" font-size="21" font-weight="700">⚠ IA como Superfície de Ataque</text>
+    <text x="890" y="176" text-anchor="middle" fill="#FDA4AF" font-size="13">O desafio definidor do ano</text>
+    <g fill="#FFF1F2" font-size="14">
+      <text x="672" y="222">▸ Prompt injection · tool misuse · memory poisoning</text>
+      <text x="672" y="256">▸ MCP e supply chain de ferramentas comprometidos</text>
+      <text x="672" y="290">▸ Ataques multi-turno: até 92% de sucesso em testes</text>
+    </g>
+    <g>
+      <rect x="672" y="320" width="200" height="66" rx="10" fill="#0B1220" opacity="0.35"/>
+      <text x="772" y="358" text-anchor="middle" fill="#FCA5A5" font-size="30" font-weight="700">48%</text>
+      <text x="772" y="378" text-anchor="middle" fill="#FDA4AF" font-size="12">apontam como principal vetor</text>
+    </g>
+    <g>
+      <rect x="888" y="320" width="200" height="66" rx="10" fill="#0B1220" opacity="0.35"/>
+      <text x="988" y="358" text-anchor="middle" fill="#FCA5A5" font-size="30" font-weight="700">US$ 4,7M</text>
+      <text x="988" y="378" text-anchor="middle" fill="#FDA4AF" font-size="12">custo médio do breach de agente</text>
+    </g>
+    <text x="672" y="428" fill="#FECDD3" font-size="13">88% já tiveram incidente ligado a agente · prompt</text>
+    <text x="672" y="448" fill="#FECDD3" font-size="13">injection já afeta mais de 1 em cada 3 agentes.</text>
+  </g>
+
+  <!-- Faixa inferior -->
+  <g filter="url(#sh)">
+    <rect x="60" y="520" width="1080" height="86" rx="14" fill="#1E1B4B" opacity="0.9"/>
+    <text x="600" y="556" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="700">Zero Trust para IA · Governança (NIST AI RMF) · Humano no loop</text>
+    <text x="600" y="584" text-anchor="middle" fill="#A78BFA" font-size="13">Os 5 temas desta proposta atravessam esse fio — da operação (SOC) à governança (board).</text>
+  </g>
+</svg>
