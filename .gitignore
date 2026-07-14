@@ -1,0 +1,5 @@
+# Ambientes / temporários
+.DS_Store
+*.tmp
+~$*
+*:Zone.Identifier
