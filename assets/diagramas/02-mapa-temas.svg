@@ -16,7 +16,7 @@
   </defs>
   <rect width="1200" height="720" fill="url(#bg)"/>
   <text x="600" y="48" text-anchor="middle" fill="#E2E8F0" font-size="26" font-weight="700">5 temas · 2 palcos — Universo TOTVS 2026</text>
-  <text x="600" y="76" text-anchor="middle" fill="#94A3B8" font-size="14">Recomendação: #3 ou #4 no auditório + #5 no Prêmio Brasil Que Faz.</text>
+  <text x="600" y="76" text-anchor="middle" fill="#94A3B8" font-size="14">Recomendação: #3 ou #4 no auditório + #5 no Prêmio Brasil Que Faz. ◆ #2 é sessão-prêmio (live-online) para uma empresa vencedora.</text>
 
   <!-- Coluna Auditório -->
   <g filter="url(#sh)">
@@ -38,16 +38,16 @@
       <text x="94" y="286" fill="#94A3B8" font-size="12">Reaproveita: cybersec-ai-operations-book,</text>
       <text x="94" y="304" fill="#94A3B8" font-size="12">SOAR+IA, CECyber Range (SOC/Blue)</text>
     </g>
-    <!-- Tema 2 -->
+    <!-- Tema 2 (migrado → Prêmio Brasil Que Faz · live-online) -->
     <g filter="url(#sh)">
       <rect x="428" y="182" width="340" height="150" rx="12" fill="#0F172A"/>
-      <rect x="428" y="182" width="6" height="150" rx="3" fill="#FB7185"/>
-      <circle cx="460" cy="214" r="16" fill="#FB7185"/><text x="460" y="219" text-anchor="middle" fill="#0B1220" font-size="15" font-weight="700">2</text>
-      <text x="488" y="211" fill="#E2E8F0" font-size="15" font-weight="700">IA hackeada</text>
-      <text x="488" y="231" fill="#94A3B8" font-size="12">A IA que você contratou pode ser hackeada</text>
-      <text x="450" y="264" fill="#FCA5A5" font-size="12">▸ Demo de prompt injection + checklist</text>
-      <text x="450" y="286" fill="#94A3B8" font-size="12">Reaproveita: Cryp2pentest, EASM,</text>
-      <text x="450" y="304" fill="#94A3B8" font-size="12">grc-ia-multicloud, vibe-hacking</text>
+      <rect x="428" y="182" width="6" height="150" rx="3" fill="#A78BFA"/>
+      <circle cx="460" cy="214" r="16" fill="#A78BFA"/><text x="460" y="219" text-anchor="middle" fill="#0B1220" font-size="15" font-weight="700">2</text>
+      <text x="488" y="211" fill="#E2E8F0" font-size="15" font-weight="700">IA hackeada · governança ◆</text>
+      <text x="488" y="231" fill="#94A3B8" font-size="12">Governar, usar com consciência e proteger a IA</text>
+      <text x="450" y="264" fill="#C4B5FD" font-size="12">▸ Live-online · sessão-prêmio p/ empresa vencedora</text>
+      <text x="450" y="286" fill="#C4B5FD" font-size="12">▸ Demo encenada + guia de uso consciente</text>
+      <text x="450" y="304" fill="#94A3B8" font-size="12">Reaproveita: grc-ia-multicloud, advisory, CyberAware</text>
     </g>
     <!-- Tema 3 -->
     <g filter="url(#sh)">

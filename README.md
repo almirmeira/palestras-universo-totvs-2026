@@ -51,17 +51,17 @@ O organizador solicitou **4 temas**; entregamos **5** para dar margem de escolha
 | # | Título | Palco recomendado | Parte prática |
 |---|--------|-------------------|---------------|
 | 1 | Deixei uma IA cuidar do meu SOC por um dia | Auditório (técnico) | Demo de SOC agêntico ao vivo |
-| 2 | A IA que você contratou também pode ser hackeada | Auditório (técnico) | Demo de prompt injection + checklist |
+| 2 | A IA que você contratou também pode ser hackeada — governando IA corporativa com consciência | Prêmio Brasil Que Faz (sessão-prêmio, empresa vencedora · live-online) | Demo encenada + governança + guia de uso consciente |
 | 3 | Anatomia de um ataque a um ERP na nuvem — ao vivo | Auditório (mista) | Ataque encenado + threat modeling |
 | 4 | 200 pessoas, uma crise cibernética, uma decisão | Auditório (mista) | Tabletop com votação ao vivo |
 | 5 | O Brasil que faz tecnologia confiável na era da IA | Prêmio Brasil Que Faz | Framework de governança aplicável |
 
-**Recomendação de combinação:** #3 ou #4 no auditório (engajam plateia mista) + #5 no Prêmio Brasil Que Faz. #1 e #2 são as alternativas mais "2026/IA" caso o organizador queira o auditório focado em IA.
+**Recomendação de combinação:** #3 ou #4 no auditório (engajam plateia mista) + #5 no Prêmio Brasil Que Faz (palco institucional). O tema **#2** foi ajustado, a pedido do cliente, para a **sessão-prêmio dedicada a uma empresa vencedora do Brasil Que Faz** — formato **live-online**, público **não técnico** de uma única empresa, focado em **governança, segurança e uso consciente de IA** (mantendo o gancho "pode ser hackeada"). O #1 permanece como alternativa técnica de IA para o auditório.
 
 ## One-pagers
 
 - [01 — O SOC Autônomo](one-pagers/01-soc-autonomo.md)
-- [02 — A IA hackeada (segurança de agentes)](one-pagers/02-ia-hackeada.md)
+- [02 — A IA hackeada: governança e uso consciente de IA (sessão-prêmio Brasil Que Faz · live-online)](one-pagers/02-ia-hackeada.md)
 - [03 — Anatomia de um ataque a um ERP SaaS](one-pagers/03-anatomia-ataque-erp.md)
 - [04 — Tabletop ao vivo](one-pagers/04-tabletop-ao-vivo.md)
 - [05 — O Brasil que faz tecnologia confiável (Prêmio Brasil Que Faz)](one-pagers/05-brasil-que-faz.md)
