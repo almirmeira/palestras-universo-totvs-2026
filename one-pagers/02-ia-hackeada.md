@@ -21,6 +21,8 @@ Sem virar aula técnica, três verdades desconfortáveis:
 
 A boa notícia: nada disso se resolve com mais tecnologia — resolve-se com **governança, consciência e alguns controles simples**. É isso que a empresa leva desta sessão.
 
+![Como a IA corporativa é hackeada, em 3 passos](../assets/diagramas/tema02-como-ia-hackeada.svg)
+
 ## Promessa ao público
 
 1. Entender, em linguagem de negócio, **como uma IA corporativa pode ser hackeada** — e por que os controles clássicos não bastam.
@@ -50,6 +52,10 @@ Como é **live-online** e para **público não técnico**, a demo é **encenada 
 
 Em seguida, **liga-se a governança**: aplica-se o controle correspondente e o mesmo ataque **falha**. A empresa recebe o **guia de uso consciente** (1 página) e o **modelo de governança de IA** (1 slide).
 
+![Modelo leve de governança de IA corporativa](../assets/diagramas/tema02-governanca-ia.svg)
+
+![Uso consciente de IA e plano de 30/60/90 dias](../assets/diagramas/tema02-uso-consciente.svg)
+
 ## Interatividade (aproveitando ser uma única empresa, ao vivo)
 
 - **Enquetes rápidas** ("sua empresa já tem política de uso de IA?", "quem já colou dado da empresa numa IA pública?") para calibrar a conversa em tempo real.
@@ -71,6 +77,6 @@ Governança de IA · segurança de IA · uso consciente de IA corporativa · **s
 ## Materiais de palco
 
 - Slides Gamma enxutos, visuais, tom acessível (menos texto, mais história) — otimizados para leitura em tela (live-online)
-- 1 SVG do **modelo leve de governança de IA** + 1 do fluxo **"como a IA é hackeada"** em 3 passos
+- 3 SVGs de apoio (paleta canônica CECyber): fluxo **"como a IA é hackeada"** em 3 passos, **modelo leve de governança de IA** e **uso consciente + plano 30/60/90** — em `assets/diagramas/tema02-*.svg`
 - Ambiente da demo do assistente vulnerável + **gravação de backup** (contingência de conexão)
 - **Guia de uso consciente de IA** (1 página, PDF) e **plano 30/60/90** com QR para download

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111A2E"/>
+    </linearGradient>
+    <linearGradient id="vote" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#064E3B"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+    <linearGradient id="dfk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4C0519"/><stop offset="1" stop-color="#FB7185"/></linearGradient>
+    <filter id="sh" x="-12%" y="-12%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <text x="600" y="48" text-anchor="middle" fill="#E2E8F0" font-size="27" font-weight="700">Anatomia do tabletop ao vivo (≈ 55 min)</text>
+  <text x="600" y="78" text-anchor="middle" fill="#94A3B8" font-size="15">Em vez de assistir, as 200 pessoas decidem. A cada injeção, a plateia vota — e vê a consequência na hora.</text>
+
+  <!-- linha do tempo -->
+  <line x1="90" y1="196" x2="1110" y2="196" stroke="#334155" stroke-width="3"/>
+
+  <!-- Nós -->
+  <!-- 0 Abertura -->
+  <g filter="url(#sh)">
+    <circle cx="140" cy="196" r="20" fill="#1E293B" stroke="#64748B" stroke-width="2"/>
+    <text x="140" y="202" text-anchor="middle" fill="#CBD5E1" font-size="15" font-weight="700">0</text>
+    <text x="140" y="150" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="700">Abertura</text>
+    <text x="140" y="168" text-anchor="middle" fill="#94A3B8" font-size="11">regras do jogo · 5'</text>
+  </g>
+  <!-- 1 Cenário -->
+  <g filter="url(#sh)">
+    <circle cx="290" cy="196" r="20" fill="#1E293B" stroke="#64748B" stroke-width="2"/>
+    <text x="290" y="202" text-anchor="middle" fill="#CBD5E1" font-size="15" font-weight="700">1</text>
+    <text x="290" y="150" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="700">Cenário</text>
+    <text x="290" y="168" text-anchor="middle" fill="#94A3B8" font-size="11">o alerta inicial · 8'</text>
+  </g>
+  <!-- 2 Injeção 1 (voto) -->
+  <g filter="url(#sh)">
+    <circle cx="450" cy="196" r="24" fill="url(#vote)"/>
+    <text x="450" y="202" text-anchor="middle" fill="#062B22" font-size="16" font-weight="700">2</text>
+    <text x="450" y="146" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700">Injeção 1 · VOTO</text>
+    <text x="450" y="164" text-anchor="middle" fill="#A7F3D0" font-size="11">detecção e 1ª resposta · 10'</text>
+  </g>
+  <!-- 3 Injeção 2 deepfake (voto) -->
+  <g filter="url(#sh)">
+    <circle cx="640" cy="196" r="26" fill="url(#dfk)"/>
+    <text x="640" y="202" text-anchor="middle" fill="#3F0413" font-size="16" font-weight="700">3</text>
+    <text x="640" y="142" text-anchor="middle" fill="#FDA4AF" font-size="13" font-weight="700">🎭 Injeção 2 · VOTO</text>
+    <text x="640" y="160" text-anchor="middle" fill="#FECDD3" font-size="11">deepfake do CEO · 10'</text>
+  </g>
+  <!-- 4 Injeção 3 (voto) -->
+  <g filter="url(#sh)">
+    <circle cx="830" cy="196" r="24" fill="url(#vote)"/>
+    <text x="830" y="202" text-anchor="middle" fill="#062B22" font-size="16" font-weight="700">4</text>
+    <text x="830" y="146" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700">Injeção 3 · VOTO</text>
+    <text x="830" y="164" text-anchor="middle" fill="#A7F3D0" font-size="11">decisão executiva · 10'</text>
+  </g>
+  <!-- 5 Debrief -->
+  <g filter="url(#sh)">
+    <circle cx="970" cy="196" r="20" fill="#1E293B" stroke="#64748B" stroke-width="2"/>
+    <text x="970" y="202" text-anchor="middle" fill="#CBD5E1" font-size="15" font-weight="700">5</text>
+    <text x="970" y="150" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="700">Debrief</text>
+    <text x="970" y="168" text-anchor="middle" fill="#94A3B8" font-size="11">vs. boas práticas · 8'</text>
+  </g>
+  <!-- 6 Playbook -->
+  <g filter="url(#sh)">
+    <circle cx="1080" cy="196" r="20" fill="#2E1065" stroke="#A78BFA" stroke-width="2"/>
+    <text x="1080" y="202" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="700">6</text>
+    <text x="1080" y="150" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="700">Playbook</text>
+    <text x="1080" y="168" text-anchor="middle" fill="#94A3B8" font-size="11">fechamento · 4'</text>
+  </g>
+
+  <!-- Legenda pontos de votação -->
+  <text x="600" y="252" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700">● 3 pontos de decisão em que a plateia vota o próximo passo</text>
+
+  <!-- Cards de votação -->
+  <g filter="url(#sh)">
+    <rect x="90" y="286" width="330" height="176" rx="14" fill="#0F172A"/>
+    <rect x="90" y="286" width="6" height="176" rx="3" fill="#34D399"/>
+    <text x="114" y="320" fill="#E2E8F0" font-size="15" font-weight="700">Injeção 1 — Conter?</text>
+    <g fill="#CBD5E1" font-size="12.5">
+      <text x="114" y="352">A crise começa: o que fazemos primeiro?</text>
+      <text x="114" y="382" fill="#94A3B8">A) Isolar o sistema afetado</text>
+      <text x="114" y="406" fill="#94A3B8">B) Investigar antes de agir</text>
+      <text x="114" y="430" fill="#94A3B8">C) Avisar a liderança agora</text>
+    </g>
+  </g>
+  <g filter="url(#sh)">
+    <rect x="435" y="286" width="330" height="176" rx="14" fill="#0F172A"/>
+    <rect x="435" y="286" width="6" height="176" rx="3" fill="#FB7185"/>
+    <text x="459" y="320" fill="#E2E8F0" font-size="15" font-weight="700">Injeção 2 — Confiar na voz?</text>
+    <g fill="#CBD5E1" font-size="12.5">
+      <text x="459" y="352">🎭 "O CEO" liga pedindo transferência:</text>
+      <text x="459" y="382" fill="#94A3B8">A) Executar — é uma emergência</text>
+      <text x="459" y="406" fill="#94A3B8">B) Confirmar por outro canal</text>
+      <text x="459" y="430" fill="#94A3B8">C) Comunicar a crise ao mercado?</text>
+    </g>
+  </g>
+  <g filter="url(#sh)">
+    <rect x="780" y="286" width="330" height="176" rx="14" fill="#0F172A"/>
+    <rect x="780" y="286" width="6" height="176" rx="3" fill="#34D399"/>
+    <text x="804" y="320" fill="#E2E8F0" font-size="15" font-weight="700">Injeção 3 — Decisão do board</text>
+    <g fill="#CBD5E1" font-size="12.5">
+      <text x="804" y="352">Pressão de fora: como responder?</text>
+      <text x="804" y="382" fill="#94A3B8">A) Acionar o regulador (ANPD)</text>
+      <text x="804" y="406" fill="#94A3B8">B) Falar com a imprensa</text>
+      <text x="804" y="430" fill="#94A3B8">C) Notificar clientes primeiro</text>
+    </g>
+  </g>
+
+  <!-- Métodos de voto -->
+  <g filter="url(#sh)">
+    <rect x="90" y="486" width="1020" height="56" rx="12" fill="#111A2E"/>
+    <text x="118" y="520" fill="#7DD3FC" font-size="13.5" font-weight="700">Como a plateia vota:</text>
+    <text x="292" y="520" fill="#CBD5E1" font-size="13">✋ mãos   ·   🟥🟩 cartões coloridos   ·   📱 QR / enquete no app do evento</text>
+    <text x="900" y="520" fill="#94A3B8" font-size="12">(combinar com a organização antes)</text>
+  </g>
+
+  <!-- Faixa inferior -->
+  <g filter="url(#sh)">
+    <rect x="90" y="564" width="1020" height="90" rx="14" fill="#1E1B4B" opacity="0.92"/>
+    <text x="600" y="600" text-anchor="middle" fill="#C4B5FD" font-size="16" font-weight="700">A plateia decide. A tela mostra a consequência.</text>
+    <text x="600" y="628" text-anchor="middle" fill="#A78BFA" font-size="13">Resposta a incidente é decisão de negócio, não só técnica — e todos saem com um mini-playbook de crise.</text>
+  </g>
+</svg>

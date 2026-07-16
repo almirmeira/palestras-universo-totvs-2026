@@ -13,6 +13,8 @@
 
 É o formato **mais memorável** possível num auditório: em vez de assistir, as 200 pessoas **decidem**. A cada injeção da crise, a plateia vota o próximo passo (conter? comunicar? pagar? acionar autoridade?) e vê, na hora, a consequência da escolha coletiva. O *twist* de 2026 — um **deepfake do CEO** pedindo uma transferência urgente no meio da crise — traz o vetor de IA para dentro da narrativa de forma visceral.
 
+![Anatomia do tabletop ao vivo — timeline de 55 min com os 3 pontos de votação](../assets/diagramas/tema04-fluxo-exercicio.svg)
+
 ## Promessa ao público
 
 1. Sentir, na pele, a pressão de decidir sob incerteza numa crise cibernética.
@@ -35,6 +37,8 @@
 
 O **exercício inteiro é a parte prática**: um tabletop **Cyber Decision** rodado ao vivo, com a plateia votando (mãos, cartões ou QR/enquete) a cada ponto de decisão e vendo as consequências projetadas. Alta energia, muito comentado no corredor depois.
 
+![O loop de decisão do tabletop — injeção, opções, votação e consequência](../assets/diagramas/tema04-loop-decisao.svg)
+
 ## Reaproveitamento do portfólio
 
 - `plataforma-ttx` / `plataforma-ttx-v2` — motor de tabletop e votação
@@ -46,6 +50,7 @@ O **exercício inteiro é a parte prática**: um tabletop **Cyber Decision** rod
 
 - Cenário adaptado para plateia mista de evento (versão condensada de 45–55 min)
 - Slides de injeção + placar de votação ao vivo
+- 2 SVGs de apoio (paleta canônica CECyber): timeline do exercício e loop de decisão — em `assets/diagramas/tema04-*.svg`
 - Deepfake de demonstração (áudio/vídeo encenado, claramente rotulado como simulação)
 - Mini-playbook de crise (1 página) com QR para download
 

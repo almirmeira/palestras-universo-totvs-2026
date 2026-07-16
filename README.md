@@ -87,7 +87,12 @@ palestras-universo-totvs-2026/
 │   └── diagramas/                     # SVGs (paleta canônica CECyber, fonte Inter)
 │       ├── 01-fio-condutor-2026.svg   # IA agêntica: defesa × superfície de ataque
 │       ├── 02-mapa-temas.svg          # 5 temas mapeados nos 2 palcos
-│       └── 03-tech-badges.svg         # tecnologias, frameworks e ativos
+│       ├── 03-tech-badges.svg         # tecnologias, frameworks e ativos
+│       ├── tema02-como-ia-hackeada.svg  # tema 2: como a IA é hackeada em 3 passos
+│       ├── tema02-governanca-ia.svg     # tema 2: modelo leve de governança de IA
+│       ├── tema02-uso-consciente.svg    # tema 2: uso consciente + plano 30/60/90
+│       ├── tema04-fluxo-exercicio.svg   # tema 4: timeline do tabletop (3 votações)
+│       └── tema04-loop-decisao.svg      # tema 4: loop injeção→voto→consequência
 └── one-pagers/                        # 1 documento detalhado por tema (agenda 45–60 min)
     ├── 01-soc-autonomo.md
     ├── 02-ia-hackeada.md
